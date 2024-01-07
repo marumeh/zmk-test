@@ -15,7 +15,7 @@ keymap {
 //      | KP4 | KP5 | KP6 |
 
 
-        bingdings = <
+        bindings = <
         
         &kp KP_N7     &kp KP_N8     &kp KP_N9
         &kp KP_N4     &kp KP_N5     &kp KP_N6
