@@ -9,19 +9,14 @@ keymap {
     compatible = "zmk,keymap";
 
     base_layer {
-        label = "BASE"
+        label = "BASE";
 
-//      | KP7 | KP8 | KP9 |
-//      | KP4 | KP5 | KP6 |
-
+        // | KP7 | KP8 | KP9 |
+        // | KP4 | KP5 | KP6 |
 
         bindings = <
-        
-        &kp KP_N7     &kp KP_N8     &kp KP_N9
-        &kp KP_N4     &kp KP_N5     &kp KP_N6
-
+            &kp KP_N7, &kp KP_N8, &kp KP_N9,
+            &kp KP_N4, &kp KP_N5, &kp KP_N6
         >;
-
     }
-
 };
